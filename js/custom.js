@@ -53,3 +53,30 @@ $(document).ready(function() {
         });
     });
 });
+
+$(document).ready(function() {
+    $('#servicesButton').click(function(e) {
+        e.preventDefault();
+        $('#serviceSection').get(0).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+$(document).ready(function() {
+    $('#whyUsButton').click(function(e) {
+        e.preventDefault();
+        $('#whySection').get(0).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+$(document).ready(function() {
+    $('#teamButton').click(function(e) {
+        e.preventDefault();
+        $('#teamSection').get(0).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
